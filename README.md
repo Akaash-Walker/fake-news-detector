@@ -1,6 +1,4 @@
-# DS 3010: Project Proposal
-### Group Name: Fake News Detectors
-### Members: Deepak Dinesh, Nicole Guan, Aidan Henbest, and Akaash Walker
+# Fake News Detector
 
 **Need**
 
@@ -29,5 +27,6 @@ The main beneficiaries of this project will be everyday news readers who want to
 **Sketch**
 
 <img width="1728" height="2304" alt="Sketch" src="https://github.com/user-attachments/assets/8fb49434-55db-43fa-99ab-3528ff1da725" />
+
 
 When a user inputs a URL, we first use the Newspaper package to extract the title and body from the article. Then, we will make minor edits to this text so that it can be fed into Harrier and turned into embeddings. The embeddings will then be fed into the model that we trained, which will output a verdict: real or fake. This output will then be returned to the user.
