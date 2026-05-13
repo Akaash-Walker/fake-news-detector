@@ -12,7 +12,7 @@ CORS(app, resources={r"/*": {
 
 @app.route("/", methods=["GET"])
 def home():
-    return jsonify({"status" : "Server is running on 10000"})
+    return jsonify({"status" : "Server is running on _____"})
 
 @app.route("/send_link", methods=["POST", "OPTIONS"])
 @cross_origin()

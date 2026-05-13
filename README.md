@@ -12,8 +12,8 @@ The main beneficiaries of this project will be everyday news readers who want to
   * Contains the title, text, subject, and date of 44,919 articles
   * The articles span from March 30th, 2015 to February 18th, 2018
     * Each article is labeled either real or fake
-    * 21,417 are real
-    * 23,502 are fake
+    * 21,417 are real (21,195 post cleaning)
+    * 23,502 are fake (17,455 post cleaning)
 
 **Tools**
 
